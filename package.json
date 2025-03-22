@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "mongoose": "^8.9.3",
+    "uuid": "^9.0.0"
+  },
+  "name": "03-order",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cleanup": "node cleanup.js",
+    "data:populate": "node data_populator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
